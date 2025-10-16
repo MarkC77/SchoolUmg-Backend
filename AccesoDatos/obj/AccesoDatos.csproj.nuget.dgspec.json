@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fzepe\\source\\repos\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fzepe\\source\\repos\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\DELL\\Desktop\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fzepe\\source\\repos\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\fzepe\\source\\repos\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\fzepe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fzepe\\source\\repos\\SchoolUmg\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\SchoolUmg\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\SchoolUmg\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fzepe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -87,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

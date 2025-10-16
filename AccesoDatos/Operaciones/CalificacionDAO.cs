@@ -82,7 +82,7 @@ namespace AccesoDatos.Operaciones
                 {
                     Id = c.Id,
                     Descripcion = c.Descripcion,
-                    Nota = c.Nota,
+                    Nota = (double)c.Nota,
                     MatriculaId = c.MatriculaId,
                     AlumnoDni = c.Matricula.Alumno.Dni,
                     AlumnoNombre = c.Matricula.Alumno.Nombre
