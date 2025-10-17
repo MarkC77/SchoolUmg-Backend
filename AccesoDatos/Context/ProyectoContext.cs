@@ -38,8 +38,8 @@ public partial class ProyectoContext : DbContext
     public virtual DbSet<Proveedores> Proveedores { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=proyecto;TrustServerCertificate=true;User Id=sa;Password=admin;MultipleActiveResultSets=true");
-
+        => optionsBuilder.UseSqlServer("Server=tcp:schoolumg.database.windows.net,1433;Initial Catalog=proyectoAzure;Persist Security Info=False;User ID=adminsql;Password=Administrad0r;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+);
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Alumno>(entity =>
