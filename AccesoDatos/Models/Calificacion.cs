@@ -9,9 +9,9 @@ public partial class Calificacion
 
     public string Descripcion { get; set; } = null!;
 
-    public float Nota { get; set; }
+    public decimal Nota { get; set; }
 
-    public int Porcentaje { get; set; }
+    public decimal Porcentaje { get; set; }
 
     public int MatriculaId { get; set; }
 
